@@ -13,7 +13,6 @@ app.use(express.json());
 app.use(require("./routes/rutas"));
 //app.use(require("./routes/rutasAdmin"));
 
-
 //Empezando el servidor
 app.listen(app.get("port"));
 console.log("mi primer servidor");
