@@ -10,7 +10,7 @@ app.use(morgan("dev")); //mas detalle "combined"
 app.use(express.json());
 
 //Rutas
-app.use(require("./routes/rutas"));
+app.use(require("./routes/rutasPrecios"));
 //app.use(require("./routes/rutasAdmin"));
 
 //Empezando el servidor
