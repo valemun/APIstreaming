@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "title": "modern family",
+        "rating": "pg-13",
+        "genre": "comedia"
+    },
+    {
+        "id": "2",
+        "title": "Angry birds",
+        "rating": "e",
+        "genre": "niños"
+    }
+]

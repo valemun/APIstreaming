@@ -3,8 +3,10 @@ const router = Router();
 //const express = require("express");
 //const router = express.Router();
 
+const contenido = require("./dataContenido.json");
+
 router.get("/", (req, res) =>{
-    res.send("si funciona!"); //.send es para mandar string
+    res.json(contenido);
 });
 
 router.get("/{idContenido}", (req, res) =>{
