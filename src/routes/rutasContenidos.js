@@ -7,7 +7,7 @@ router.get("/", (req, res) =>{
     res.send("si funciona!"); //.send es para mandar string
 });
 
-router.get("/home", (req, res) =>{
+router.get("/{idContenido}", (req, res) =>{
     res.json({"name": "John Doe"}); //.json es para json
 });
 

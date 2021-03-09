@@ -4,13 +4,16 @@ const morgan = require("morgan");
 
 //Configuaciones
 app.set("port", 3000);
+app.set("json spaces", 2);
 
 //Middlewares
 app.use(morgan("dev")); //mas detalle "combined"
 app.use(express.json());
 
 //Rutas
-app.use(require("./routes/rutasPrecios"));
+app.use("/api/contenidos", require("./routes/rutasContenidos"));
+app.use("/api/precios", require("./routes/rutasPrecios"));
+app.use("/api/usuarios", require("./routes/rutasUsuarios"));
 //app.use(require("./routes/rutasAdmin"));
 
 //Empezando el servidor
