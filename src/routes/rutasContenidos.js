@@ -18,8 +18,40 @@ router.get("/:id", (req, res) =>{
            res.json(contenido);
        }
    });
-
-   console.log(id);
 });
+
+router.get("/:genre", (req, res) =>{
+    const {genre} = req.params;
+ 
+    contenido.forEach(contenido => {
+        if(contenido.genre == genre){
+            res.json(contenido);
+        }
+    });
+ });
+
+ router.get("/seleccionarPaquete/:edad", (req, res) =>{
+    const {edad} = req.params;
+    
+    if(edad < 13){
+       
+        contenido.forEach(contenido => {
+            if(contenido.rating == "e"){
+                res.json(contenido);
+            }
+        });
+
+    }
+    if (edad > 13){
+
+        contenido.forEach(contenido => {
+            if(contenido.rating == "e" || contenido.rating == "pg-13"){
+                res.json(contenido);
+            }
+        });
+
+    }
+    
+ });
 
 module.exports = router;

@@ -10,5 +10,11 @@
         "title": "Angry birds",
         "rating": "e",
         "genre": "niños"
+    },
+    {
+        "id": "3",
+        "title": "The office",
+        "rating": "pg-15",
+        "genre": "comedia"
     }
 ]
