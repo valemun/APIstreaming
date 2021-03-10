@@ -12,7 +12,12 @@ router.get("/", (req, res) =>{
 
 router.get("/:id", (req, res) =>{
    const {id} = req.params;
-    
+
+   contenido.forEach(contenido => {
+       if(contenido.id == id){
+           res.json(contenido);
+       }
+   });
 
    console.log(id);
 });
