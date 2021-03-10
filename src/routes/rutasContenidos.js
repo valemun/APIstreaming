@@ -36,7 +36,7 @@ router.get("/:genre", (req, res) =>{
     if(edad < 13){
        
         contenido.forEach(contenido => {
-            if(contenido.rating == "e"){
+            if(contenido.rating == "g"){
                 res.json(contenido);
             }
         });
@@ -45,7 +45,7 @@ router.get("/:genre", (req, res) =>{
     if (edad > 13){
 
         contenido.forEach(contenido => {
-            if(contenido.rating == "e" || contenido.rating == "pg-13"){
+            if(contenido.rating == "g" || contenido.rating == "pg-13"){
                 res.json(contenido);
             }
         });
