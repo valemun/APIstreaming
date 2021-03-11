@@ -4,13 +4,15 @@
         "titulo": "modern family",
         "rating": "pg-13",
         "genero": "comedia",
+        "tipo": "premium",
         "precio": "$2.99"
     },
     {
         "id": "2",
         "titulo": "Angry birds",
         "rating": "g",
-        "genero": "niños"
+        "genero": "niños",
+        "tipo": "kids"
     },
     {
         "id": "3",
