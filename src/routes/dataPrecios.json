@@ -1,0 +1,44 @@
+[
+    {
+        "id": "k1",
+        "tipo": "Infantil",
+        "duracion": "1 mes",
+        "numdeusuarios":  "3",
+        "precio": "$5.99"
+    },
+    {
+        "id": "k2",
+        "tipo": "Infantil",
+        "duracion": "6 meses",
+        "numdeusuarios":  "3",
+        "precio": "$30.99"
+    },
+    {
+        "id": "k3",
+        "tipo": "Infantil",
+        "duracion": "1 año",
+        "numdeusuarios":  "4",
+        "precio": "$60.99"
+    },
+    {
+       "id": "f1",
+       "tipo": "Familiar",
+       "duracion": "1 mes",
+       "numdeusuarios": "6",
+       "precio": "$8.99"
+    },
+    {
+      "id": "f2",
+      "tipo": "Familiar",
+      "duracion": "6 meses",
+      "numdeusuarios": "6",
+      "precio": "$40.99"
+    },
+    {
+      "id": "f3",
+      "tipo": "Familiar",
+      "duracion": "1 año",
+      "numdeusuarios": "6",
+      "precio": "$80.99"
+    }
+]

@@ -1,20 +1,21 @@
 [
     {
         "id": "1",
-        "title": "modern family",
+        "titulo": "modern family",
         "rating": "pg-13",
-        "genre": "comedia"
+        "genero": "comedia",
+        "precio": "$2.99"
     },
     {
         "id": "2",
-        "title": "Angry birds",
+        "titulo": "Angry birds",
         "rating": "g",
-        "genre": "niños"
+        "genero": "niños"
     },
     {
         "id": "3",
-        "title": "The office",
+        "titulo": "The office",
         "rating": "pg-13",
-        "genre": "comedia"
+        "genero": "comedia"
     }
 ]

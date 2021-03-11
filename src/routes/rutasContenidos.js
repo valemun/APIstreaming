@@ -1,4 +1,4 @@
-const {Router} = require("express");
+const {Router} = require("express"); //hola
 const router = Router();
 //const express = require("express");
 //const router = express.Router();
@@ -13,21 +13,24 @@ router.get("/", (req, res) =>{
 router.get("/:id", (req, res) =>{
    const {id} = req.params;
 
-   contenido.forEach(contenido => {
-       if(contenido.id == id){
-           res.json(contenido);
+   contenido.forEach(cont => {
+       if(cont.id == id){
+           res.json(cont);
        }
    });
 });
 
-router.get("/:genre", (req, res) =>{
-    const {genre} = req.params;
- 
-    contenido.forEach(contenido => {
-        if(contenido.genre == genre){
-            res.json(contenido);
+router.get("/genero/:genre", (req, res) =>{
+    const {genero} = req.params;
+    const peliculas = [];
+
+    contenido.forEach(cont => {
+        if(cont.genero == genero){
+            peliculas.push(cont);
         }
     });
+
+    res.send(peliculas);
  });
 
  router.get("/seleccionarPaquete/:edad", (req, res) =>{
