@@ -15,11 +15,16 @@ router.get("/:id", (req, res) => {
             res.json(cont);
         }
     })
-})
+});
 
 router.get("/seleccionarTipo/:tipo", (req, res) => {
     const {tipo} = req.params;
-    
-})
+
+
+});
+
+router.get("/seleccionarPrecio")
+
+
 module.exports = router;
 
