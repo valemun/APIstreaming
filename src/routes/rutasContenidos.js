@@ -33,7 +33,7 @@ router.get("/genero/:genre", (req, res) =>{
     res.send(peliculas);
  });
 
- router.get("/seleccionarPaquete/:edad", (req, res) =>{
+ router.get("/seleccionarCatalogo/:edad", (req, res) =>{
     const {edad} = req.params;
     
     if(edad < 13){
