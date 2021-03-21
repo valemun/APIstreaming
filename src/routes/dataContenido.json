@@ -4,20 +4,110 @@
         "titulo": "modern family",
         "rating": "pg-13",
         "genero": "comedia",
-        "tipo": "premium",
-        "precio": "$2.99"
+        "tipo": "suscripcion",
     },
     {
         "id": "2",
         "titulo": "Angry birds",
         "rating": "g",
-        "genero": "suscripcion",
-        "tipo": "kids"
+        "genero": "infantil",
+        "tipo": "suscripcion"
     },
     {
         "id": "3",
         "titulo": "The office",
         "rating": "pg-13",
-        "genero": "comedia"
+        "genero": "comedia",
+        "tipo": "premium",
+        "precio": "$2.99"
+    },
+    {
+        "id": "4",
+        "titulo": "Paw Patrol",
+        "rating": "g",
+        "genero": "infantil",
+        "tipo": "suscripcion"
+    },
+    {
+        "id": "5",
+        "titulo": "A bugs life",
+        "rating": "g",
+        "genero": "familiar",
+        "tipo": "suscripcion"
+    },
+    {
+        "id": "6",
+        "titulo": "The muppets",
+        "rating": "pg",
+        "genero": "familair",
+        "tipo": "premium",
+        "precio": "$1.99"
+    },
+    {
+        "id": "7",
+        "titulo": "Wall-e",
+        "rating": "g",
+        "genero": "infantil",
+        "tipo": "suscripcion"
+    },
+    {
+        "id": "8",
+        "titulo": "The dark knight",
+        "rating": "pg-13",
+        "genero": "accion",
+        "tipo": "premium",
+        "precio": "$2.99"
+    },
+    {
+        "id": "9",
+        "titulo": "Arrival",
+        "rating": "pg-13",
+        "genero": "sci-fi",
+        "tipo": "premium",
+        "precio": "$1.99"
+    },
+    {
+        "id": "10",
+        "titulo": "Iron Man",
+        "rating": "pg-13",
+        "genero": "accion",
+        "tipo": "suscripcion"
+    },
+    {
+        "id": "11",
+        "titulo": "Gone girl",
+        "rating": "r",
+        "genero": "thriller",
+        "tipo": "suscripcion"
+    },
+    {
+        "id": "12",
+        "titulo": "Logan",
+        "rating": "r",
+        "genero": "accion",
+        "tipo": "premium",
+        "precio": "$2.99"
+    },
+    {
+        "id": "13",
+        "titulo": "22 jump street",
+        "rating": "r",
+        "genero": "comedia",
+        "tipo": "suscripcion"
+    },
+    {
+        "id": "14",
+        "titulo": "Jackass",
+        "rating": "nc-17",
+        "genero": "comedia",
+        "tipo": "suscripcion"
+    },
+    {
+        "id": "15",
+        "titulo": "American psycho (uncut)",
+        "rating": "nc-17",
+        "genero": "thriller",
+        "tipo": "premium",
+        "precio": "$3.99"
     }
 ]
