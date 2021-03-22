@@ -9,6 +9,7 @@ router.get('/', (req,res) =>{
  
     res.json(usuarios);
 });
+
 router.get("/:id", (req, res) =>{
   const {id} = req.params;
 
@@ -28,10 +29,5 @@ router.get("/:id/suscripcion", (req, res) =>{
     }
   });
 });
-
-//router.get("/:id/:otroid", (req, res) =>{
-//   console.log(req.params);
-//    const {id, otroid} = req.params;
-// });
 
 module.exports = router;

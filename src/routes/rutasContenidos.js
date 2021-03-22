@@ -21,11 +21,11 @@ router.get("/:id", (req, res) =>{
 });
 
 router.get("/genero/:genre", (req, res) =>{
-    const {genero} = req.params;
+    const {genre} = req.params;
     const peliculas = [];
 
     contenido.forEach(cont => {
-        if(cont.genero == genero){
+        if(cont.genero == genre){
             peliculas.push(cont);
         }
     });
@@ -51,7 +51,7 @@ router.get("/genero/:genre", (req, res) =>{
     if (edad >= 13 && edad < 18){
 
         contenido.forEach(cont => {
-            if(cont.rating != "r" || cont.rating != "nc-17"){
+            if(cont.rating != "r" && cont.rating != "nc-17"){
                 peliculas.push(cont);
             }
         });
