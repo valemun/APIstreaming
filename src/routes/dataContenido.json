@@ -4,7 +4,7 @@
         "titulo": "modern family",
         "rating": "pg-13",
         "genero": "comedia",
-        "tipo": "suscripcion",
+        "tipo": "suscripcion"
     },
     {
         "id": "2",
