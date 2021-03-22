@@ -1,7 +1,6 @@
 {
   "name": "test-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
@@ -15,5 +14,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valemun/APIstreaming.git"
+  },
+  "bugs": {
+    "url": "https://github.com/valemun/APIstreaming/issues"
+  },
+  "homepage": "https://github.com/valemun/APIstreaming#readme",
+  "description": ""
 }
