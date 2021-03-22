@@ -4,7 +4,7 @@ const suscripcion = require("./dataSuscripcion.json");
 //console.log(suscripcion); 
 
 router.get("/", (req, res) =>{
-    res.send(suscripcion); //.send es para mandar string
+    res.json(suscripcion); //.send es para mandar string
 });
 
 router.get("/:id", (req, res) => {
@@ -19,19 +19,20 @@ router.get("/:id", (req, res) => {
 
 router.get("/SeleccionarSuscripcion/:tipo", (req, res) => {
     const {tipo} = req.params;
+    const sus = [];
 
     suscripcion.forEach (suscripcion =>{
         if (suscripcion.tipo == tipo) {
-                res.json (suscripcion);
-                console.log (suscripcion.tipo, suscripcion.precio);
+               sus.push(suscripcion);
         } else {
             console.log ("error");
         }
     });
 
-});
+    res.send(sus);
 
 });
+
 
 module.exports = router;
 
