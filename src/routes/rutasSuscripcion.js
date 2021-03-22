@@ -17,7 +17,7 @@ router.get("/:id", (req, res) => {
     })
 });
 
-router.get("/Tipo/:tipo", (req, res) => {
+router.get("/SeleccionarSuscripcion/:tipo", (req, res) => {
     const {tipo} = req.params;
 
     suscripcion.forEach (suscripcion =>{
@@ -28,17 +28,6 @@ router.get("/Tipo/:tipo", (req, res) => {
     });
 
 });
-
-//esta mal, solo es guia qwq
-router.get("/numusuarios/:usuarios", (req, res) => {
-    const {usuarios} = req.params;
-
-    suscripcion.forEach (suscripcion =>{
-        if (suscripcion.usuarios == usuarios) {
-                res.json (suscripcion);
-                console.log (suscripcion.tipo, suscripcion.usuarios);
-        }
-    });
 
 });
 
