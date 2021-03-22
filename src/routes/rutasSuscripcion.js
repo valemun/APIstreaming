@@ -24,6 +24,8 @@ router.get("/SeleccionarSuscripcion/:tipo", (req, res) => {
         if (suscripcion.tipo == tipo) {
                 res.json (suscripcion);
                 console.log (suscripcion.tipo, suscripcion.precio);
+        } else {
+            console.log ("error");
         }
     });
 
